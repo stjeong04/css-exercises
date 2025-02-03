@@ -1,0 +1,19 @@
+.firstClass {
+    background-color: rgb(250, 175, 187);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+.firstClass.secondClass {
+    font-size: 24px;
+}
+
+#firstID {
+    color: #0202b7;
+    font-size: 36px;
+}
+
+#secondID {
+    background-color: hsl(120, 50%, 50%);
+    font-size: 24px;
+    text-emphasis: bold;
+}
