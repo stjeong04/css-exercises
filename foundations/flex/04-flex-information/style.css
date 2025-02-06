@@ -24,3 +24,46 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+/* body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.info-details {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info-card {
+  max-width: 200px;
+} */
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.info-details {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info-card { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+}
